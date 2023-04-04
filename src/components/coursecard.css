@@ -1,0 +1,21 @@
+.modal-footer{
+    flex-direction: row;
+}
+
+#footer1{
+    display: flex;
+    flex-direction: row;
+}
+
+#plus, #minus, #quantity{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plus:hover, #minus:hover {
+    cursor: pointer;
+}

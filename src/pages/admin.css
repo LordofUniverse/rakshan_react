@@ -1,0 +1,40 @@
+#adminpage{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#admintitle{
+    font-size: 2rem;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 480px;
+}
+
+#topcolumn, #column{
+    display: flex;
+    flex-direction: row;
+}
+
+#topcolumn{
+    background-color: black;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black !important; 
+}
+
+#buttongrp{
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+    justify-content: space-around;
+}
+

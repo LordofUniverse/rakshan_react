@@ -1,0 +1,4 @@
+#coursediv{
+    display: flex;
+    flex-direction: row;
+}
